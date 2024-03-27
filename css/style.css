@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    height: 900px;
+    background: black;
+}
+
+.content {
+    display: flex;
+}
+
+.left-section {
+    background: #acf6e3;
+    font-size: 30px;
+    line-height: 1.7;
+}
+
+.right-section {
+    background: #f38181;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section .sticky-container {
+    background: lightblue;
+    width: 300px
+}
+
+p {
+    padding: 10px 30px 30px;
+}
+
+.sticky {
+    position: relative;
+}
+
+.firstSection {
+    height: 300px;
+}
+
+.secondSection {
+    height: 500px;
+}
+
+.sticky.thirdSection {
+    flex: 1 0 0;
+
+}
+
+
+
+.sticky .sticky-container {
+    position: sticky;
+    top: 0;
+}
+
